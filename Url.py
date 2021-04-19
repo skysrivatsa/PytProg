@@ -1,3 +1,5 @@
-print("Hello from python")
-print("I have edited the code")
-print("The code is edited by preetham")
+li=["malayalam","cooc","Rahul","Preetham"]
+
+for i in range(len(li)):
+    if li[i]==li[i][::-1]:
+        print(li[i])
